@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Posterra</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #FFD700;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: 400px;
+      margin-top: 40px;
+      background-image: url('Untitled-1 copy 2.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+    }
+
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .content h1 {
+      font-size: 2.8em;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+      color: #FFD700;
+    }
+
+    .content h2 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+      font-weight: normal;
+    }
+
+    .content p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    .poster-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+    }
+
+    .poster-item {
+      text-align: center;
+    }
+
+    .poster-item img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+    }
+
+    .poster-item p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      color: #FFD700;
+    }
+
+    footer {
+      background-color: #111;
+      color: #FFD700;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 0.9em;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 600px) {
+      .hero-image {
+        height: 250px;
+        margin-top: 30px;
+      }
+
+      .content h1 {
+        font-size: 2em;
+      }
+
+      .content h2 {
+        font-size: 1.4em;
+      }
+
+      .content p {
+        font-size: 1em;
+      }
+
+      .poster-gallery {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      footer {
+        font-size: 0.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero-image"></div>
+
+  <div class="content">
+    <h1>Posterra</h1>
+    <h2>Creative Wall Art for Modern Spaces</h2>
+    <p>
+      Posterra brings you a unique collection of artistic posters to elevate your space. Whether you're decorating your bedroom, office, or creative corner, our posters are crafted with care, design, and bold inspiration. High-quality visuals, striking concepts, and a style that speaks to your personality — that's Posterra.
+    </p>
+  </div>
+
+  <!-- الصور مع الأسعار -->
+  <div class="poster-gallery">
+    <div class="poster-item">
+      <img src="335.jpg" alt="Poster 1">
+      <p>$19.99</p>
+    </div>
+    <div class="poster-item">
+      <img src="336.jpg" alt="Poster 2">
+      <p>$24.99</p>
+    </div>
+    <div class="poster-item">
+      <img src="337.jpg" alt="Poster 3">
+      <p>250 LE</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Posterra. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
